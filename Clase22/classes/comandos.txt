@@ -1,0 +1,3 @@
+jar cf Application.jar Application.class Aggrefator.class networking/WebClient.class
+
+java --cp Application.jar Application

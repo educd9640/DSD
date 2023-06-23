@@ -1,0 +1,7 @@
+sources
+javac -d ../classes *.java
+
+classes
+jar cf Application.jar Application.class Aggregator.class networking/WebClient.class
+
+java -cp Application.jar Application
